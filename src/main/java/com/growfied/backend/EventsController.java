@@ -23,7 +23,8 @@ import org.springframework.http.ResponseEntity;
 @RequestMapping("/api/events")
 @CrossOrigin(origins = {
     "http://localhost:5173",
-    "http://localhost:4173"
+    "http://localhost:4173",
+    "https://growfied-new-one.vercel.app"
 })
 public class EventsController {
 
